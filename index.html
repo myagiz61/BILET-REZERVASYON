@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sinema Bilet Rezarvasyon</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="screen"></div>
+      <div class="container-row">
+        <div class="row-seat"></div>
+        <div class="row-seat"></div>
+        <div class="row-seat reserved"></div>
+        <div class="row-seat reserved"></div>
+        <div class="row-seat"></div>
+        <div class="row-seat"></div>
+        <div class="row-seat"></div>
+        <div class="row-seat"></div>
+      </div>
+
+      <div class="container-row">
+        <div class="row-seat"></div>
+        <div class="row-seat"></div>
+        <div class="row-seat"></div>
+        <div class="row-seat"></div>
+        <div class="row-seat"></div>
+        <div class="row-seat"></div>
+        <div class="row-seat"></div>
+        <div class="row-seat"></div>
+      </div>
+
+      <div class="container-row">
+        <div class="row-seat"></div>
+        <div class="row-seat"></div>
+        <div class="row-seat"></div>
+        <div class="row-seat"></div>
+        <div class="row-seat"></div>
+        <div class="row-seat"></div>
+        <div class="row-seat"></div>
+        <div class="row-seat"></div>
+      </div>
+
+      <div class="container-row">
+        <div class="row-seat reserved"></div>
+        <div class="row-seat"></div>
+        <div class="row-seat"></div>
+        <div class="row-seat"></div>
+        <div class="row-seat"></div>
+        <div class="row-seat reserved"></div>
+        <div class="row-seat"></div>
+        <div class="row-seat"></div>
+      </div>
+
+      <div class="container-row">
+        <div class="row-seat"></div>
+        <div class="row-seat"></div>
+        <div class="row-seat"></div>
+        <div class="row-seat reserved"></div>
+        <div class="row-seat reserved"></div>
+        <div class="row-seat"></div>
+        <div class="row-seat"></div>
+        <div class="row-seat reserved"></div>
+      </div>
+    </div>
+
+    <div class="movie-list">
+      <select name="" id="movie">
+        <option disabled>Filminizi Seçiniz</option>
+        <option value="35">Örümcek Adam</option>
+        <option value="40">Hızlı Ve Öfkeli 8</option>
+        <option value="45">Tsunami</option>
+        <option value="50">Esaretin Bedeli</option>
+        <option value="55">Kara Şövalye</option>
+      </select>
+    </div>
+
+    <ul class="info-list">
+      <li>
+        <div class="row-seat selected"></div>
+        <span>Seçili</span>
+      </li>
+      <li>
+        <div class="row-seat"></div>
+        <span>Boş</span>
+      </li>
+      <li>
+        <div class="row-seat reserved"></div>
+        <span>Dolu</span>
+      </li>
+    </ul>
+
+    <p class="text">
+      <span id="count"></span> adet koltuk İçin heaplanan ücret
+      <span id="amount"></span>
+    </p>
+
+    <script src="app.js"></script>
+  </body>
+</html>
